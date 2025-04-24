@@ -118,9 +118,9 @@ export default function App() {
     <SafeAreaView style={styles.container}>
       <StatusBar barStyle="dark-content" />
       <View style={styles.header}>
-        <Text style={styles.title}>Grocery List</Text>
+        <Text style={styles.title}>My Grocery List</Text>
         <Text style={styles.subtitle}>
-          Never forget what you need to buy
+          Happy Shopping!
         </Text>
       </View>
 
@@ -181,17 +181,17 @@ const styles = StyleSheet.create({
   },
   header: {
     padding: 20,
-    backgroundColor: '#2E7D32',
+    backgroundColor: '#F5DD98',
     alignItems: 'center',
   },
   title: {
     fontSize: 28,
     fontWeight: 'bold',
-    color: 'white',
+    color: 'black',
   },
   subtitle: {
     fontSize: 16,
-    color: 'white',
+    color: 'black',
     marginTop: 5,
   },
   inputContainer: {
