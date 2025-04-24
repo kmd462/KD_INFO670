@@ -9,8 +9,9 @@ My First React Native App
 ![App Screenshot](screenshots/Assignment1.png)
 
 ## Grocery List App
-A simple and intuitive grocery shopping list application built with React Native.
-Design and Purpose
+A simple grocery shopping list application built with React Native.
+
+### Design and Purpose
 The Grocery List App is designed to help users manage their shopping efficiently. With a clean and user-friendly interface, it allows users to create, edit, and track grocery items during their shopping trips. This app is targeted towards anyone who wants an organized approach to grocery shopping without complex features or a steep learning curve.
 
 ### Basic Use
@@ -40,19 +41,25 @@ Deleting Items:
 Tap the "Delete" button next to any item to remove it from the list
 
 ## Screenshots
+
 Main Screen
-
-Show Image
-
+![App Screenshot](screenshots/Assignment 2/Main_view.png)
 The main screen displays the grocery list and provides controls for managing items.
-Adding an Item
 
-Show Image
+Adding an Item
+![App Screenshot](screenshots/Assignment 2/Added_items.png)
 Users can easily add new grocery items with quantities using the input fields at the top.
+
 Purchased Items
-Show Image
+![App Screenshot](screenshots/Assignment 2/Purchased_items.png)
 Items can be marked as purchased by tapping on them, which shows a visual indicator (strikethrough).
-Features
+
+Update and Edit Items
+![App Screenshot](screenshots/Assignment 2/Edit_item.png)
+![App Screenshot](screenshots/Assignment 2/Delete_items.png)
+Item's name and quatity can be edited by tapping the edit button and tapping update to save the changes. Tapping delete will remove the item completely from the list.
+
+### Features
 
 Add, edit, and delete grocery items
 Add quantities for each item
@@ -62,7 +69,7 @@ Responsive layout that works on various screen sizes
 Visual indicators for purchased items
 Counter showing the total number of items
 
-Technical Implementation
+### Technical Implementation
 This app was built using React Native and demonstrates the following concepts:
 
 State Management: Using React hooks (useState) to manage application state
@@ -71,7 +78,7 @@ Layout Techniques: Flexbox for responsive and intuitive layouts
 Styling: Custom StyleSheet implementation for consistent design
 Error Handling: Input validation and user feedback
 
-React Native Components Used
+### React Native Components Used
 
 View: For layout containers
 Text: For displaying item names, quantities, and labels
