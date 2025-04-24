@@ -40,3 +40,45 @@ Deleting Items:
 Tap the "Delete" button next to any item to remove it from the list
 
 ## Screenshots
+Main Screen
+
+Show Image
+
+The main screen displays the grocery list and provides controls for managing items.
+Adding an Item
+
+Show Image
+Users can easily add new grocery items with quantities using the input fields at the top.
+Purchased Items
+Show Image
+Items can be marked as purchased by tapping on them, which shows a visual indicator (strikethrough).
+Features
+
+Add, edit, and delete grocery items
+Add quantities for each item
+Mark items as purchased/not purchased
+Error handling for empty item input
+Responsive layout that works on various screen sizes
+Visual indicators for purchased items
+Counter showing the total number of items
+
+Technical Implementation
+This app was built using React Native and demonstrates the following concepts:
+
+State Management: Using React hooks (useState) to manage application state
+Component Structure: Proper use of React Native core components
+Layout Techniques: Flexbox for responsive and intuitive layouts
+Styling: Custom StyleSheet implementation for consistent design
+Error Handling: Input validation and user feedback
+
+React Native Components Used
+
+View: For layout containers
+Text: For displaying item names, quantities, and labels
+TextInput: For user input when adding/editing items
+Button: For triggering actions (add, update)
+FlatList: For efficiently rendering the scrollable grocery list
+TouchableOpacity: For handling touch events on items and buttons
+Alert: For error messages
+SafeAreaView: For handling safe areas on different devices
+StatusBar: For customizing the device status bar

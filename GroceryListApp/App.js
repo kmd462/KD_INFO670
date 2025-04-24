@@ -143,7 +143,7 @@ export default function App() {
         <Button 
           title={editIndex !== -1 ? "Update" : "Add"} 
           onPress={addItem} 
-          color="#2E7D32"
+          color="#602E2B"
         />
       </View>
       
