@@ -4,7 +4,7 @@ Khue Dao
 
 My First React Native App
 
-## Screenshots
+## Screenshots Assignment 1
 
 ![App Screenshot](screenshots/Assignment1.png)
 
@@ -12,7 +12,7 @@ My First React Native App
 A simple grocery shopping list application built with React Native.
 
 ### Design and Purpose
-The Grocery List App is designed to help users manage their shopping efficiently. With a user-friendly interface, it allows users to create, edit, and track grocery items during their shopping trips. This app is targeted towards anyone who wants an organized approach to grocery shopping without complex features or a steep learning curve.
+The Grocery List App is designed to help users manage their grocery shopping efficiently. With a user-friendly interface, it allows users to create, edit, and track grocery items during their shopping trips. This app is for anyone who wants an organized approach to grocery shopping without complex features or a steep learning curve.
 
 ### Basic Use
 
@@ -43,21 +43,30 @@ Deleting Items:
 ## Screenshots
 
 Main Screen
-![App Screenshot](screenshots/Assignment2/Main_view.png)
+
+<img src="screenshots/assignment2/Main_view.png" width="50%" alt="App Screenshot">
+
 The main screen displays the grocery list and provides controls for managing items.
 
-Adding an Item
-![App Screenshot](screenshots/Assignment2/Added_items.png)
+Adding Items
+
+<img src="screenshots/assignment2/Added_items.png" width="50%" alt="App Screenshot">
+
 Users can easily add new grocery items with quantities using the input fields at the top.
 
 Purchased Items
-![App Screenshot](screenshots/Assignment2/Purchased_items.png)
+
+<img src="screenshots/assignment2/Purchased_items.png" width="50%" alt="App Screenshot">
+
+
 Items can be marked as purchased by tapping on them, which shows a visual indicator (strikethrough).
 
 Update and Edit Items
-![App Screenshot](screenshots/Assignment2/Edit_item.png)
-![App Screenshot](screenshots/Assignment2/Delete_items.png)
-Item's name and quatity can be edited by tapping the edit button and tapping update to save the changes. Tapping delete will remove the item completely from the list.
+
+<img src="screenshots/assignment2/Edit_item.png" width="50%" alt="App Screenshot">
+<img src="screenshots/assignment2/Delete_items.png" width="50%" alt="App Screenshot">
+
+Item's name and quantity can be edited by tapping the edit button, making changes, and tapping update to save the changes. Tapping delete will remove the item completely from the list.
 
 ### Features
 
@@ -66,7 +75,7 @@ Item's name and quatity can be edited by tapping the edit button and tapping upd
 - Mark items as purchased/not purchased
 - Error handling for empty item input
 - Responsive layout that works on various screen sizes
-- isual indicators for purchased items
+- Visual indicators for purchased items
 - Counter showing the total number of items
 
 ### Technical Implementation
