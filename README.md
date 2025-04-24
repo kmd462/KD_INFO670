@@ -43,20 +43,20 @@ Deleting Items:
 ## Screenshots
 
 Main Screen
-![AppScreenshot](screenshots/Assignment 2/Main_view.png)
+![App Screenshot](screenshots/Assignment2/Main_view.png)
 The main screen displays the grocery list and provides controls for managing items.
 
 Adding an Item
-![Appcreenshot](screenshots/Assignment 2/Added_items.png)
+![App Screenshot](screenshots/Assignment2/Added_items.png)
 Users can easily add new grocery items with quantities using the input fields at the top.
 
 Purchased Items
-![AppScreenshot](screenshots/Assignment 2/Purchased_items.png)
+![App Screenshot](screenshots/Assignment2/Purchased_items.png)
 Items can be marked as purchased by tapping on them, which shows a visual indicator (strikethrough).
 
 Update and Edit Items
-![AppScreenshot](screenshots/Assignment 2/Edit_item.png)
-![AppScreenshot](screenshots/Assignment 2/Delete_items.png)
+![App Screenshot](screenshots/Assignment2/Edit_item.png)
+![App Screenshot](screenshots/Assignment2/Delete_items.png)
 Item's name and quatity can be edited by tapping the edit button and tapping update to save the changes. Tapping delete will remove the item completely from the list.
 
 ### Features
