@@ -1,14 +1,28 @@
 import React from 'react';
 import { View, Text, FlatList, Image, StyleSheet, TouchableOpacity } from 'react-native';
 
-// Sample image data
+// Sample image data with direct image URLs
 const imageData = [
-  { id: '1', title: 'Mountain View', uri: 'https://picsum.photos/id/10/200' },
-  { id: '2', title: 'Beach Sunset', uri: 'https://picsum.photos/id/11/200' },
-  { id: '3', title: 'Forest Path', uri: 'https://picsum.photos/id/12/200' },
-  { id: '4', title: 'City Skyline', uri: 'https://picsum.photos/id/13/200' },
-  { id: '5', title: 'Desert Landscape', uri: 'https://picsum.photos/id/14/200' },
-  { id: '6', title: 'Snow Mountain', uri: 'https://picsum.photos/id/15/200' },
+  { 
+    id: '1', 
+    title: 'Vietnam Mountain', 
+    uri: 'https://static.vinwonders.com/production/mountains-in-Vietnam-banner.jpg' 
+  },
+  { 
+    id: '2', 
+    title: 'Bai Nhat Beach', 
+    uri: 'https://as2.ftcdn.net/jpg/01/58/66/33/1000_F_158663327_AXsbdZPyfF8OJgb6XAIbFk8PgszjQJsQ.jpg' 
+  },
+  { 
+    id: '3', 
+    title: 'Nam Cat Tien National Park', 
+    uri: 'https://wander-lush.org/wp-content/uploads/2020/07/Vietnam-National-Parks-Nam-Cat-Tien.jpg' 
+  },
+  { 
+    id: '4', 
+    title: 'Ho Chi Minh Skyline', 
+    uri: 'https://media.istockphoto.com/id/171588234/photo/ho-chi-minh-city-skyline.jpg?s=612x612&w=0&k=20&c=jmTldJx6U6hgmw2mO_qjYEr1Ur97sXh0cnB448hI-qg=' 
+  },
 ];
 
 const GalleryScreen = ({ navigation }) => {
@@ -17,13 +31,13 @@ const GalleryScreen = ({ navigation }) => {
   };
 
   const renderItem = ({ item }) => (
-    <TouchableOpacity 
-      style={styles.imageContainer} 
+    <TouchableOpacity
+      style={styles.imageContainer}
       onPress={() => handleImagePress(item)}
     >
-      <Image 
-        source={{ uri: item.uri }} 
-        style={styles.thumbnail} 
+      <Image
+        source={{ uri: item.uri }}
+        style={styles.thumbnail}
       />
       <Text style={styles.imageTitle}>{item.title}</Text>
     </TouchableOpacity>

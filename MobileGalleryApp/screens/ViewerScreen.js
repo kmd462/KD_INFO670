@@ -5,7 +5,7 @@ import { Ionicons } from '@expo/vector-icons';
 const ViewerScreen = ({ route, navigation }) => {
   // Get the image from navigation params, or use a default if none provided
   const { image } = route.params || { 
-    image: { uri: 'https://picsum.photos/id/10/500', title: 'Default Image' }
+    image: { uri: 'https://themaritimeexplorer.ca/wp-content/uploads/2024/03/Morning-on-the-Saigon-River.jpg', title: 'Sai Gon' }
   };
 
   return (

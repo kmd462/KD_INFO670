@@ -97,3 +97,55 @@ This app was built using React Native and demonstrates the following concepts:
 - Alert: For error messages
 - SafeAreaView: For handling safe areas on different devices
 - StatusBar: For customizing the device status bar
+
+## Assignment 3: Mobile Gallery App
+
+### Design and Purpose
+This mobile application is designed as a gallery viewer that allows users to browse through a collection of beautiful Vietnam-themed images. The app features a clean and intuitive interface with three main screens: Gallery, Picture Viewer, and Profile. It serves as both a practical photo viewer and a user customization example.
+
+The target audience includes:
+
+- Photography enthusiasts interested in Vietnam's landscapes
+- Tourists planning to visit Vietnam
+- Students learning about mobile app development
+- Anyone who appreciates visual content in an organized, accessible format
+
+### Features
+
+Gallery Screen
+
+- Displays a visually appealing grid of image thumbnails with descriptive captions
+- Features a responsive layout that adapts to different screen sizes
+- Shows high-quality images of Vietnam's mountains, beaches, forests, and cities
+- Implements smooth scrolling and touch interactions
+
+Picture Viewer Screen
+
+- Provides a full-screen viewing experience for selected images
+- Features a distraction-free dark background to emphasize the image
+- Includes a convenient back button for easy navigation
+- Displays the image title for context
+
+Profile Screen
+
+- Allows users to personalize their experience
+- Includes multiple input types (text fields, switches, custom radio buttons)
+- Saves user preferences to local storage for persistence between sessions
+- Implements form validation to prevent invalid data submission
+
+### Screenshots
+
+Gallery Screen
+
+<img src="screenshots/Assignment3/GalleryScreen.png" width="50%" alt="Gallery Screenshot">
+The Gallery screen displays a grid of Vietnam-themed images with titles
+
+Viewer Screen
+
+<img src="screenshots/Assignment3/ViewerScreen.png" width="50%" alt="Viewer Screenshot">
+The Picture Viewer screen shows the selected image in full-screen mode
+
+Profile
+
+<img src="screenshots/Assignment3/Profile.png" width="50%" alt="Profile Screenshot">
+The Profile screen allows users to customize their experience
