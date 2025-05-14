@@ -101,14 +101,7 @@ This app was built using React Native and demonstrates the following concepts:
 ## Assignment 3: Mobile Gallery App
 
 ### Design and Purpose
-This mobile application is designed as a gallery viewer that allows users to browse through a collection of beautiful Vietnam-themed images. The app features a clean and intuitive interface with three main screens: Gallery, Picture Viewer, and Profile. It serves as both a practical photo viewer and a user customization example.
-
-The target audience includes:
-
-- Photography enthusiasts interested in Vietnam's landscapes
-- Tourists planning to visit Vietnam
-- Students learning about mobile app development
-- Anyone who appreciates visual content in an organized, accessible format
+This mobile application is designed as a gallery viewer that allows users to browse through a collection of beautiful Vietnam images. The app features a simple and intuitive interface with three main screens: Gallery, Viewer, and Profile. It serves as both a practical photo viewer and a user customization example. The target audience can be photographers, travelers, explorers, or researchers who want to know more about the country.
 
 ### Features
 
@@ -149,3 +142,26 @@ Profile
 
 <img src="screenshots/Assignment3/Profile.png" width="50%" alt="Profile Screenshot">
 The Profile screen allows users to customize their experience
+
+### Technical Implementation
+
+Architecture
+
+- Built with React Native and Expo for cross-platform compatibility
+- Implements bottom tab navigation using React Navigation
+- Uses component-based architecture for modularity and reusability
+- Employs responsive design principles for various device sizes
+
+Key Technologies
+
+- React Native for the user interface
+- React Navigation for screen navigation
+- AsyncStorage for local data persistence
+- Custom styling with StyleSheet
+- Expo vector icons for navigation tab icons
+
+Data Management
+
+- Local storage implementation for user profile data
+- Error handling and validation for form inputs
+- Efficient image rendering with proper sizing and caching
