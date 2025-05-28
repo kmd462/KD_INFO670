@@ -174,7 +174,7 @@ This is a mobile messaging application that allows users to send and receive mes
 - Purpose: Enable users to send messages to each other and retrieve their received messages through a simple, intuitive mobile interface.
 - Target Audience: General users who need a basic messaging platform for communication.
 
-### Screenshots
+### Front-end Screenshots
 
 <img src="screenshots/Assignment4/Sender.png" width="50%" alt="Sender Screenshot">
 <img src="screenshots/Assignment4/Successful_sent.png" width="50%" alt="Sender Screenshot">
@@ -190,3 +190,54 @@ This is a mobile messaging application that allows users to send and receive mes
 - Retrieve button to fetch messages
 - List of received messages with sender and timestamp
 - Pull-to-refresh functionality
+
+### Server APIs
+
+1. sendMessage.php
+
+**Endpoint**: `POST /sendMessage.php`
+
+**Parameters**:
+```json
+{
+  "sender": "string",
+  "recipient": "string",
+  "message": "string"
+}
+
+**Server Response**: 
+```json
+{
+  "success": true,
+  "message": "Message sent successfully",
+  "messageId": "msg_1716849600000_a1b2c3d4e"
+}
+
+2. retrieveMessage.php
+
+**Endpoint**: GET /retrieveMessages.php
+
+**Parameter**: recipient (query parameter)
+
+**Server Response**: 
+```json
+{
+  "success": true,
+  "messages": [
+    {
+      "id": "msg_1716849600000_a1b2c3d4e",
+      "sender": "Khue",
+      "recipient": "Jane",
+      "message": "Hello Jane!",
+      "timestamp": "2024-05-27T21:30:00.000Z"
+    },
+    {
+      "id": "msg_1716849500000_f5g6h7i8j",
+      "sender": "John",
+      "recipient": "Jane",
+      "message": "How are you doing?",
+      "timestamp": "2024-05-27T21:28:00.000Z"
+    }
+  ]
+}
+
