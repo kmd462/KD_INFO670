@@ -176,15 +176,15 @@ This is a mobile messaging application that allows users to send and receive mes
 
 ### Screenshots
 
-<img src="screenshots/Assignment4/Sender" width="50%" alt="Sender Screenshot">
-<img src="screenshots/Assignment4/Successful_sent" width="50%" alt="Sender Screenshot">
+<img src="screenshots/Assignment4/Sender.png" width="50%" alt="Sender Screenshot">
+<img src="screenshots/Assignment4/Successful_sent.png" width="50%" alt="Sender Screenshot">
 
 - Shows input fields for sender username, recipient username, and message
 - Button to send the message
 - Navigation button to go to inbox
 
-<img src="screenshots/Assignment4/Retrieve" width="50%" alt="Retriever Screenshot">
-<img src="screenshots/Assignment4/Retrieved_result" width="50%" alt="Retriever Screenshot">
+<img src="screenshots/Assignment4/Retrieve.png" width="50%" alt="Retriever Screenshot">
+<img src="screenshots/Assignment4/Retrieved_result.png" width="50%" alt="Retriever Screenshot">
 
 - Shows input field for username
 - Retrieve button to fetch messages
