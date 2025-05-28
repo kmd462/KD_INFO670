@@ -191,7 +191,7 @@ This is a mobile messaging application that allows users to send and receive mes
 - List of received messages with sender and timestamp
 - Pull-to-refresh functionality
 
-### Server APIs
+### Server API
 
 1. sendMessage.php
 
