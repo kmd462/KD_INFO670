@@ -195,31 +195,36 @@ This is a mobile messaging application that allows users to send and receive mes
 
 1. sendMessage.php
 
-**Endpoint**: `POST /sendMessage.php`
+**Endpoints**: `POST /sendMessage.php`
 
 **Parameters**:
+
 ```json
 {
   "sender": "string",
   "recipient": "string",
   "message": "string"
 }
+```
 
-**Server Response**: 
+**Server Response** 
+
 ```json
 {
   "success": true,
   "message": "Message sent successfully",
   "messageId": "msg_1716849600000_a1b2c3d4e"
 }
+```
 
 2. retrieveMessage.php
 
-**Endpoint**: GET /retrieveMessages.php
+**Endpoints**: `GET /retrieveMessage.php`
 
-**Parameter**: recipient (query parameter)
+**Parameters**: `recipient` (query parameter)
 
 **Server Response**: 
+
 ```json
 {
   "success": true,
@@ -240,4 +245,4 @@ This is a mobile messaging application that allows users to send and receive mes
     }
   ]
 }
-
+```
