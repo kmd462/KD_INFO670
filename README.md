@@ -165,3 +165,28 @@ Data Management
 - Local storage implementation for user profile data
 - Error handling and validation for form inputs
 - Efficient image rendering with proper sizing and caching
+
+## Assignment 4: Messaging App
+
+### App Overview
+
+This is a mobile messaging application that allows users to send and receive messages through a React Native frontend connected to PHP backend APIs. The app demonstrates full-stack development with API integration and optional database functionality.
+- Purpose: Enable users to send messages to each other and retrieve their received messages through a simple, intuitive mobile interface.
+- Target Audience: General users who need a basic messaging platform for communication.
+
+### Screenshots
+
+<img src="screenshots/Assignment4/Sender.png" width="50%" alt="Sender Screenshot">
+<img src="screenshots/Assignment4/Successful_sent.png" width="50%" alt="Sender Screenshot">
+
+- Shows input fields for sender username, recipient username, and message
+- Button to send the message
+- Navigation button to go to inbox
+
+<img src="screenshots/Assignment4/Retrieve.png" width="50%" alt="Retriever Screenshot">
+<img src="screenshots/Assignment4/Retrieved_result.png" width="50%" alt="Retriever Screenshot">
+
+- Shows input field for username
+- Retrieve button to fetch messages
+- List of received messages with sender and timestamp
+- Pull-to-refresh functionality
